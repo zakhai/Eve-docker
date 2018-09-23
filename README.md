@@ -19,3 +19,5 @@ These are the changed files to make docker fnction. IP Addresses of the interfac
 The container IP address must be part of the startup configuration. Check the eve-ng pro cookbook on the correct format.
 
 The docker options box on the template should typically be used to set environmental variables rather than the ip address. I found a number of containerise network functions that required environmental variables to be presented. so use '-e ENVIRONMENTAL_VARIABLE' and it gets passed into the create command. 
+
+Copy files to /opt/unetlab/ and the appropriate directory.
